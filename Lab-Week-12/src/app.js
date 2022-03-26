@@ -48,20 +48,3 @@ const StudentGradeAverage = (students) => {
   console.log(studentsScholarship)
 }
 StudentGradeAverage(students)
-
-
-
-
-
-
-
-// function test(named) {
-//     console.log('Hello ' + named);
-// }
-
-// test('World');
-
-
-// const greet = () => {
-//     return ("hello world");
-// };
