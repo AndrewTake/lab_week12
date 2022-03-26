@@ -3,10 +3,19 @@
 // const select = document.querySelector("#side-nav");
 // console.log(select);
     
-function selectSideNav(){
-    const selector = document.querySelector("#side-nav");
-    console.log(selector);
+// function selectSideNav(){
+//     const selector = document.querySelector("#side-nav");
+//     console.log(selector);
+// }
+
+
+let darkTheme = () => {
+    let switchDarkTheme = document.querySelector(".container");
+    switchDarkTheme.classList.replace("light-theme", "dark-theme");
 }
+darkTheme()
+
+
 
 // function selectStudents() {
 // const students = [
